@@ -26,7 +26,7 @@ const showProducts = (products) => {
 
       <div class="d-flex flex-row bd-highlight justify-content-center mb-3">
         <div class="p-2 bd-highlight">Rating: ${product.rating.rate}</div>
-        <div class="p-2 bd-highlight">Count: ${product.rating.count}</div>
+        <div class="p-2 bd-highlight">Reviews: ${product.rating.count}</div>
       </div>
       
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">add to cart</button>
