@@ -16,7 +16,7 @@ const showProducts = (products) => {
     div.classList.add("product");
 
     // Adding innerHTML
-    div.innerHTML = `<div class="single-product m-2 bg-secondary bg-opacity-25">
+    div.innerHTML = `<div class="single-product m-2 bg-secondary bg-opacity-25 rounded-3">
       <div>
     <img class="product-image" src=${image}></img>
       </div>

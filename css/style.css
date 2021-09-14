@@ -2,6 +2,7 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
 /* CSS for All Products */
@@ -9,8 +10,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
-  width: 100%;
-  margin: auto;
+  /* width: auto; */
+  /* margin: auto; */
   align-items: center;
   justify-content: center;
 }
@@ -23,7 +24,7 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgb(116, 143, 143);
 }
 .product-image {
   width: 150px;
@@ -50,7 +51,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
   .cart {
-    width: 300px;
+    width: 350px;
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
@@ -59,6 +60,7 @@ body {
   }
   .cart-main {
     padding-right: 10px;
+    
   }
 }
 @media only screen and (max-width: 468px) {
